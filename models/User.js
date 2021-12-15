@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 
-
 const userSchema = mongoose.Schema({
     name: {
         type: String,
@@ -19,7 +18,7 @@ const userSchema = mongoose.Schema({
         type: Number,
         default: 0
     },
-    image: Stringm,
+    image: String,
     token: {
         type: String
     },
